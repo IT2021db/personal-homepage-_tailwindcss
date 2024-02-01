@@ -1,4 +1,5 @@
-# Personal homepage refactored with the usage of Tailwind CSS framework.
+# personal-homepage_tailwindcss
+My personal homepage refactored with the usage of Tailwind CSS framework.
 
 # Getting Started with Create React App
 
