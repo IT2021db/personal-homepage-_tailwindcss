@@ -2,7 +2,7 @@
 
 # Getting Started with Create React App
 
-## DEMO: https://it2021db.github.io/personal-homepage/
+## DEMO: https://it2021db.github.io/personal-homepage-tailwindcss/
 
 ## About the app
 
