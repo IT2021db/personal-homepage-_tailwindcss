@@ -1,6 +1,9 @@
+# personal-homepage_tailwindcss
+My personal homepage refactored with the usage of Tailwind CSS framework.
+
 # Getting Started with Create React App
 
-## DEMO: https://it2021db.github.io/personal-homepage/
+## DEMO: https://it2021db.github.io/personal-homepage_tailwindcss/
 
 ## About the app
 
