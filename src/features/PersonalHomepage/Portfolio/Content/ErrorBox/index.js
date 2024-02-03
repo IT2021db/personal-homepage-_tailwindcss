@@ -1,16 +1,15 @@
 import { ReactComponent as WarningIcon } from "./warning.svg";
-import { Wrapper, Header, Paragraph } from "./styled.js";
 import { ButtonLink } from "../../../ButtonLink/styled";
 import { githubUsername } from "../../../githubUsername";
 
 export const ErrorBox = () => (
-    <Wrapper>
+    <article className="mid:mt-24 grid justify-items-center text-center mid:gap-8 text-headerTextColor mt-14 gap-6">
         < WarningIcon />
-        <Header>Ooops! Something went&nbsp;wrong...</Header>
-        <Paragraph>
+        <header className="mid:text-2xl font-bold text-base">Ooops! Something went&nbsp;wrong...</header>
+        <p className=" m-0 mid:text-xl text-base leading-normal">
             Sorry, failed to load Github projects.<br />
             You can check them directly on Github.
-        </Paragraph>
+        </p>
         <ButtonLink
             href={`https://github.com/${githubUsername}`}
             target="_blank"
@@ -18,6 +17,6 @@ export const ErrorBox = () => (
         >
             Go to Github
         </ButtonLink>
-    </Wrapper>
+    </article>
 
 );
