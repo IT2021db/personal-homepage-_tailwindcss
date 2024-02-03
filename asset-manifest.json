@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-homepage_tailwindcss/static/css/main.decd8ea9.css",
-    "main.js": "/personal-homepage_tailwindcss/static/js/main.bb3b7fa2.js",
+    "main.css": "/personal-homepage_tailwindcss/static/css/main.60a16209.css",
+    "main.js": "/personal-homepage_tailwindcss/static/js/main.33ce1505.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage_tailwindcss/static/js/787.162bc9a0.chunk.js",
     "static/media/imgProfile.jpg": "/personal-homepage_tailwindcss/static/media/imgProfile.6d66fb22f702f559bd12.jpg",
     "static/media/brightness.svg": "/personal-homepage_tailwindcss/static/media/brightness.24ea7f5d956068cf455f5fd544429ee2.svg",
@@ -12,12 +12,12 @@
     "static/media/warning.svg": "/personal-homepage_tailwindcss/static/media/warning.5aa740a4e01a48bdaf667e2b02285f1d.svg",
     "static/media/envelope.svg": "/personal-homepage_tailwindcss/static/media/envelope.c307e44f3e0721fd079577a1552db75f.svg",
     "static/media/spinner.svg": "/personal-homepage_tailwindcss/static/media/spinner.f0cf9f6aef365567ad9b9a0d34b8b760.svg",
-    "main.decd8ea9.css.map": "/personal-homepage_tailwindcss/static/css/main.decd8ea9.css.map",
-    "main.bb3b7fa2.js.map": "/personal-homepage_tailwindcss/static/js/main.bb3b7fa2.js.map",
+    "main.60a16209.css.map": "/personal-homepage_tailwindcss/static/css/main.60a16209.css.map",
+    "main.33ce1505.js.map": "/personal-homepage_tailwindcss/static/js/main.33ce1505.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage_tailwindcss/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.decd8ea9.css",
-    "static/js/main.bb3b7fa2.js"
+    "static/css/main.60a16209.css",
+    "static/js/main.33ce1505.js"
   ]
 }
