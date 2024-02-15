@@ -1,5 +1,4 @@
 import React from "react";
-import { Avatar, Paragraph, Wrapper, Name, ThisIs, StyledButton, Icon } from "./styled";
 import { email } from "../../../common/myEmail";
 import envelope from "./envelope.svg";
 import imgProfile from "./imgProfile.jpg";
@@ -35,7 +34,7 @@ export const MainInformation = () => (
                 title={email}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-blueElementColor text-white px-4 py-3 rounded font-semibold text-xl "
+                className="inline-flex items-center justify-center bg-blueElementColor text-white pl-4 pr-6 py-3 rounded font-semibold text-xl "
             >
                 <img src={envelope} alt="Email" className="p-2.5" />
                 Hire Me
