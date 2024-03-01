@@ -8,7 +8,7 @@ export const Content = ({ title, skills }) => {
 
     return (
         <>
-            <section className={`mid:mt-20 mt-8 pb-14 pt-7 px-0 mid:pl-5 ${isDark ? " bg-darkSectionBackgroundColor" : "bg-sectionBackgroundColor"}  pl-2.5`}>
+            <section className={`mid:mt-20 mt-8 pb-14 mid:pt-7 pt-4 px-0 mid:pl-5 ${isDark ? " bg-darkSectionBackgroundColor" : "bg-sectionBackgroundColor"}  pl-2.5`}>
                 <h3 className={`mid:text-3xl text-xs mid:mt-7 mt-4 font-black tracking-wider pb-3 border-b ${isDark ? "text-white" : "text-headerTextColor"} border-talesBorder`}>
                     {title}
                 </h3>
