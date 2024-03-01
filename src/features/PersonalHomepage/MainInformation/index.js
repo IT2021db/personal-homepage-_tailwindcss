@@ -1,10 +1,9 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { selectIsDark, toggleTheme } from "../ThemeSwitcher/themeSwitcherSlice";
+import { useSelector } from "react-redux";
+import { selectIsDark} from "../ThemeSwitcher/themeSwitcherSlice";
 import { email } from "../../../common/myEmail";
 import envelope from "./envelope.svg";
 import imgProfile from "./imgProfile.jpg";
-import { ThemeSwitcher } from "../ThemeSwitcher";
 import '../../../index.css';
 
 export const MainInformation = () => {
