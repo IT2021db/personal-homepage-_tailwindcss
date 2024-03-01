@@ -1,5 +1,5 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { selectIsDark } from "../ThemeSwitcher/themeSwitcherSlice";
 import { email } from "../../../common/myEmail";
 import { linkedIn } from "../../../common//MyLinkedIn.js";
@@ -9,7 +9,6 @@ import { ReactComponent as LinkedIn } from "./linkedInIcon.svg";
 
 export const Footer = () => {
 
-    const dispatch = useDispatch();
     const isDark = useSelector(selectIsDark);
     return (
         <footer className="max-w-2xl h-96 mid:mt-32 mt-12">
