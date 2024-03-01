@@ -12,7 +12,7 @@ export const Footer = () => {
     const isDark = useSelector(selectIsDark);
     return (
         <footer className="max-w-2xl h-96 mid:mt-32 mt-12">
-            <h2 className={`uppercase font-bold leading-tight mx-0 mid:mb-2 mb-0 mt-5 ${isDark ? "text-white" : "text-secondaryTextColor"} text-xs`}>Let's talk!</h2>
+            <h2 className={`uppercase font-bold leading-tight mx-0 mid:mb-6 mb-0 mt-5 ${isDark ? "text-white" : "text-secondaryTextColor"} text-xs`}>Let's talk!</h2>
             <a className={`font-black mid:text-4xl leading-10 ${isDark ? "text-white" : "text-headerTextColor"}  no-underline m-0 text-2xl hover:text-blueElementColor`}
                 href={`mailto:${email}`}
                 title={email}
