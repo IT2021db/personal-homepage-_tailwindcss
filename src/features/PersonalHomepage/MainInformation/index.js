@@ -1,13 +1,13 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectIsDark} from "../ThemeSwitcher/themeSwitcherSlice";
+import { selectIsDark } from "../ThemeSwitcher/themeSwitcherSlice";
 import { email } from "../../../common/myEmail";
 import envelope from "./envelope.svg";
 import imgProfile from "./imgProfile.jpg";
 import '../../../index.css';
 
 export const MainInformation = () => {
-   
+
     const isDark = useSelector(selectIsDark);
     return (
         <header className="mt-[-30px] grid mid:grid-cols-[auto_1fr] grid-cols-1 mid:gap-16 gap-3 items-center  ">
@@ -17,10 +17,10 @@ export const MainInformation = () => {
                 alt="Dorota Borowska"
             />
             <div>
-                <div className={` uppercase font-bold text-xs${isDark ? 'text-white' : "text-secondaryTextColor"}`}>
+                <div className={` uppercase font-bold text-xs ${isDark ? 'text-white' : "text-secondaryTextColor"}`}>
                     This is
                 </div>
-                <h1 className={`font-black mid:text-4xl text-2xl mid:mt-3 mt-8 ${isDark ? "text-white" : "text-headerTextColor"}`}>
+                <h1 className={`font-black mid:text-4xl text-2xl mid:mt-3 mt-4 ${isDark ? "text-white" : "text-headerTextColor"}`}>
                     Dorota Borowska
                 </h1>
 
