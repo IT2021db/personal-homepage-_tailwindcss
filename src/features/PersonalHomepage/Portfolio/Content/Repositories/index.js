@@ -1,3 +1,6 @@
+import { useSelector } from "react-redux";
+import { selectIsDark } from "../../../ThemeSwitcher/themeSwitcherSlice";
+
 export const Repositories = ({ repos }) => {
     const selectedFirstRepoName = "movies-browser-react";
     const selectedSecondRepoName = "todos-list-react-ts";
@@ -6,17 +9,19 @@ export const Repositories = ({ repos }) => {
     const otherRepos = repos.filter(repo => repo.name !== selectedFirstRepoName && repo.name !== selectedSecondRepoName);
     const orderedRepos = [selectedFirstRepo, selectedSecondRepo, ...otherRepos];
 
+    const isDark = useSelector(selectIsDark);
+
     return (
         <ul className="grid mid:grid-cols-2 mid:gap-8 p-0 grid-cols-1 gap-4">
             {orderedRepos.map(repo => (
                 <li
-                    className="border-talesBorder bg-sectionBackgroundColor border-8 transition ease-linear duration-300 text-left mid:p-14 m-0 
-                    text-base hover:border-talesBorderHover p-5"
+                    className={`border-talesBorder ${isDark ? "bg-darkSectionBackgroundColor" : "bg-sectionBackgroundColor"}  border-8 transition ease-linear duration-300 text-left mid:p-14 m-0 
+                    text-base hover:border-talesBorderHover p-5`}
                     key={repo.id} >
                     <h3 className="m-0 text-blueElementColor text-2xl">
                         {repo.name}</h3>
-                    <p className="mid:m-6 leading-normal mid:text-base text-sm my-4 mx-0">
-                        {repo.p}
+                    <p className="mid:my-6 leading-normal mid:text-base text-sm my-4 mx-0">
+                        {repo.description}
                     </p>
                     <div className="my-4 mx-0 ">
                         Demo:
