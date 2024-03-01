@@ -10,7 +10,7 @@ import { ThemeSwitcher } from "./ThemeSwitcher";
 export const PersonalHomepage = () => {
     const isDark = useSelector(selectIsDark);
     return (
-        <div className={`bg-${isDark ? "darkGeneralBackground" : "generalBackground"} container mx-auto mid:p-4 p-3.5 mid:mt-5 mt-2.5`}>
+        <div className={`${isDark ? "bg-darkGeneralBackground" : "bg-generalBackground"} container mx-auto mid:p-4 p-3.5 mid:mt-5 mt-2.5`}>
             <ThemeSwitcher />
             <MainInformation />
             <Skills />
