@@ -8,7 +8,7 @@ import { ThemeSwitcher } from "../ThemeSwitcher";
 import '../../../index.css';
 
 export const MainInformation = () => {
-    const dispatch = useDispatch();
+   
     const isDark = useSelector(selectIsDark);
     return (
         <header className="mt-[-30px] grid mid:grid-cols-[auto_1fr] grid-cols-1 mid:gap-16 gap-3 items-center  ">
