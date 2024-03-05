@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import {selectIsDark}from "../PersonalHomepage/ThemeSwitcher/themeSwitcherSlice"
+import { selectIsDark } from "../PersonalHomepage/ThemeSwitcher/themeSwitcherSlice"
 import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
 import { Portfolio } from "./Portfolio";
@@ -16,8 +16,6 @@ export const PersonalHomepage = () => {
             <Skills />
             <Portfolio />
             <Footer />
-
-           
         </div>
     );
 };
