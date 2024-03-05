@@ -10,9 +10,9 @@ export const MainInformation = () => {
 
     const isDark = useSelector(selectIsDark);
     return (
-        <header className="mt-[-30px] grid mid:grid-cols-[auto_1fr] grid-cols-1 mid:gap-16 gap-3 items-center  ">
+        <header className="mt-[-10px] grid mid:grid-cols-[auto_1fr] grid-cols-1 mid:gap-16 gap-3 items-center  ">
             <img
-                className="max-w-[398px] mid:w-30vw w-32 rounded-full mid:mb-16 mb-0"
+                className="max-w-[398px] mid:w-30vw w-32 rounded-full mid:mb-8 mb-0"
                 src={imgProfile}
                 alt="Dorota Borowska"
             />
@@ -20,11 +20,11 @@ export const MainInformation = () => {
                 <div className={` uppercase font-bold text-xs ${isDark ? 'text-white' : "text-secondaryTextColor"}`}>
                     This is
                 </div>
-                <h1 className={`font-black mid:text-4xl text-2xl mid:mt-3 mt-4 ${isDark ? "text-white" : "text-headerTextColor"}`}>
+                <h1 className={`font-black mid:text-4xl text-2xl mid:mt-8 mt-4 ${isDark ? "text-white" : "text-headerTextColor"}`}>
                     Dorota Borowska
                 </h1>
 
-                <p className={` md:text-xl text-base  mx-0 mid:my-8 my-4 leading-snug mid:max-w-2xl max-w-xl ${isDark ? "text-white" : "text-secondaryTextColor"}`}>
+                <p className={` md:text-xl text-base  mx-0 mid:mt-0 mid:mb-8 my-4 leading-snug mid:max-w-2xl max-w-xl ${isDark ? "text-white" : "text-secondaryTextColor"}`}>
                     Hi there! I am a beginning Frontend Developer with a strong focus on
                     React. I thrive on new challenges in the workplace and enjoy discovering
                     new tools and solutions to improve my work. As a team player, I value
