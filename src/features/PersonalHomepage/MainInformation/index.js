@@ -10,7 +10,7 @@ export const MainInformation = () => {
 
     const isDark = useSelector(selectIsDark);
     return (
-        <header className="mt-[-10px] grid mid:grid-cols-[auto_1fr] grid-cols-1 mid:gap-16 gap-3 items-center  ">
+        <header className="mt-[5] grid mid:grid-cols-[auto_1fr] grid-cols-1 mid:gap-16 gap-3 items-center  ">
             <img
                 className="max-w-[398px] mid:w-30vw w-32 rounded-full mid:mb-8 mb-0"
                 src={imgProfile}
