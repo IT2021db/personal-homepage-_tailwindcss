@@ -5,7 +5,6 @@ import { email } from "../../../common/myEmail";
 import { linkedIn } from "../../../common//MyLinkedIn.js";
 import { github } from "../../../common/myGithub";
 import { ReactComponent as Github } from "./githubIcon.svg";
-
 import { ReactComponent as LinkedIn } from "./linkedInIcon.svg";
 
 export const Footer = () => {
