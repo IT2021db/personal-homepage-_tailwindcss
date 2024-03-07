@@ -2,15 +2,15 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    'node_modules/flowbite-react/lib/esm/**/*.js',
+    "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
     extend: {
       width: {
-        '30vw': '30vw',
+        "30vw": "30vw",
       },
       screens: {
-        'mid': '768px',
+        mid: "768px",
       },
       colors: {
         black: "#000",
@@ -30,10 +30,9 @@ module.exports = {
         sunColor: "#FFFF",
         darkSunColor: "#000",
         talesBorder: "rgba(209, 213,218, 0.3)",
-        talesBorderHover: "rgba(9,10,51, 0.3)"
+        talesBorderHover: "rgba(9,10,51, 0.3)",
       },
     },
   },
   plugins: [],
-}
-
+};

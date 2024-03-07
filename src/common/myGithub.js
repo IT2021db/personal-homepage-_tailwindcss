@@ -1,1 +1,1 @@
-export const github="https://github.com/IT2021db";
+export const github = "https://github.com/IT2021db";

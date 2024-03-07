@@ -3,8 +3,5 @@ import { themeSaga } from "../../features/PersonalHomepage/ThemeSwitcher/themeSa
 import { homepageSaga } from "../../features/PersonalHomepage/homepageSaga";
 
 export default function* rootSaga() {
-    yield all([
-        themeSaga(),
-        homepageSaga(),
-    ]);
-};
+  yield all([themeSaga(), homepageSaga()]);
+}

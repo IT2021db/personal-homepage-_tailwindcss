@@ -7,7 +7,8 @@ function App() {
   const isDark = useSelector(selectIsDark);
   return (
     <>
-      <GlobalStyle isDark={isDark} /> {/* Passing the isDark value to GlobalStyle */}
+      <GlobalStyle isDark={isDark} />{" "}
+      {/* Passing the isDark value to GlobalStyle */}
       <PersonalHomepage />
     </>
   );
