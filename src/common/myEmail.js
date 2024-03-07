@@ -1,1 +1,1 @@
-export const email="dorabor@wp.pl";
+export const email = "dorabor@wp.pl";
