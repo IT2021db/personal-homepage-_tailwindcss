@@ -1,3 +1,4 @@
+import React from "react";
 import { useSelector } from "react-redux";
 import { GlobalStyle } from "./GlobalStyle";
 import { selectIsDark } from "../../features/PersonalHomepage/ThemeSwitcher/themeSwitcherSlice";

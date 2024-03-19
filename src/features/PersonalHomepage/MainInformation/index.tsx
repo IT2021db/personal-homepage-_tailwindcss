@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { selectIsDark } from "../ThemeSwitcher/themeSwitcherSlice";
 import { email } from "../../../common/myEmail";
-import envelope from "./envelope.svg";
+import envelope from "../../../images/envelope.svg";
 import imgProfile from "./imgProfile.jpg";
 import "../../../index.css";
 

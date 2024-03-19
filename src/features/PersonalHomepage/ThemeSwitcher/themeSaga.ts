@@ -3,7 +3,7 @@ import { saveIsDarkInLocalStorage } from "./themeLocalStorage";
 import { selectIsDark, toggleTheme } from "./themeSwitcherSlice";
 
 function* saveIsDarkInLocalStorageHandler() {
-  const isDark = yield select(selectIsDark);
+  const isDark: boolean = yield select(selectIsDark);
   yield call(saveIsDarkInLocalStorage, isDark);
 }
 

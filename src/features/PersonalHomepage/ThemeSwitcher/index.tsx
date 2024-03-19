@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 
 import { selectIsDark, toggleTheme } from "./themeSwitcherSlice";
-import { ReactComponent as SunIcon } from "./brightness.svg";
+import { ReactComponent as SunIcon } from "../../../images/brightness.svg";
 
 export const ThemeSwitcher = () => {
   const dispatch = useDispatch();
